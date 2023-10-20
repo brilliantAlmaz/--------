@@ -1,0 +1,42 @@
+.box1 {
+	width: 500px;
+	height: 100px;
+	background: #000;
+}
+.box2 {
+	width: 500px;
+	height: 200px;
+	background: red;
+}
+
+html {
+	background: #f000000;
+
+	/* цвет всего сайта */
+}
+
+.big-box {
+	padding: 10px;
+	background: green;
+
+	display: flex;
+	/* вызов флекса */
+
+	justify-content: space-between;
+	/* выравниывает элементы относительно родителя */
+	/* start - начинает с начала*/
+	/* end  - начинает с конца*/
+	/* center - начинает в центре*/
+	/* space-between - делает равные пробелы*/
+
+	align-items: center;
+	/* вырванивает элементы относительно друг друга */
+	/*  start - с начала всех элементов*/
+	/* end - с конца всех элементов */
+	/* center - с центра всех элементов */
+
+	gap: 40px;
+	/* пробел межды ВСЕМИ элементами */
+
+	flex-wrap: wrap;
+}
